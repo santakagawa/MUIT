@@ -1,0 +1,53 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://img.freepik.com/free-vector/bot-chat-say-hi-robots-that-are-programmed-talk-customers-online_68708-622.jpg?size=626&ext=jpg",
+    "size": "4xl",
+    "aspectRatio": "20:17",
+    "aspectMode": "cover",
+    "action": {
+      "type": "uri",
+      "uri": "http://linecorp.com/"
+    }
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "はじめまして！ 私はPrimeJapan（プライムジャパン）です😃\n\nLINEの使い方に慣れるお手伝いをさせていただきます☺️☺️  \n\n LINEでできることを紹介していきますので、一緒に試してみましょう！\n\n  成功すると、おトクに使えるポイントがもらえます✨",
+            "wrap": true,
+            "gravity": "bottom",
+            "size": "17px",
+            "margin": "none",
+            "offsetTop": "none",
+            "offsetBottom": "none"
+          }
+        ],
+        "borderWidth": "none",
+        "cornerRadius": "xl",
+        "margin": "none",
+        "backgroundColor": "#edf2fa",
+        "paddingAll": "xl"
+      }
+    ],
+    "borderWidth": "none",
+    "margin": "none"
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": []
+  },
+  "styles": {
+    "footer": {
+      "backgroundColor": "#299ae6"
+    }
+  }
+}
