@@ -1,0 +1,80 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "ポイント獲得",
+        "color": "#299ae6",
+        "weight": "bold"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://previews.123rf.com/images/ylivdesign/ylivdesign1902/ylivdesign190207842/125008365-dollar-coin-icon-isometric-of-dollar-coin-vector-icon-for-web-design-isolated-on-white-background.jpg",
+            "size": "45px",
+            "align": "start",
+            "flex": 0,
+            "margin": "md"
+          },
+          {
+            "type": "text",
+            "text": "50",
+            "gravity": "center",
+            "weight": "bold",
+            "size": "3xl",
+            "margin": "lg",
+            "flex": 0
+          },
+          {
+            "type": "text",
+            "text": "ポイント",
+            "gravity": "center",
+            "weight": "bold",
+            "margin": "sm"
+          }
+        ],
+        "paddingTop": "lg",
+        "paddingBottom": "md"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "🎉おめでとうございます🎉\n\nあなたは完璧にミッションを達成されました！💯💯\n\n報酬として、Primeポイントを受け取ってください！\n\n次のミッションも頑張りましょう✨",
+            "wrap": true,
+            "gravity": "bottom",
+            "size": "17px",
+            "margin": "none",
+            "offsetTop": "none",
+            "offsetBottom": "none"
+          }
+        ],
+        "borderWidth": "none",
+        "cornerRadius": "xl",
+        "margin": "none",
+        "backgroundColor": "#edf2fa",
+        "paddingAll": "xl"
+      }
+    ],
+    "borderWidth": "none",
+    "margin": "none"
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": []
+  },
+  "styles": {
+    "footer": {
+      "backgroundColor": "#299ae6"
+    }
+  }
+}
