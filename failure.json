@@ -1,0 +1,55 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "ミッション失敗",
+        "color": "#299ae6",
+        "weight": "bold"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [],
+        "paddingTop": "lg",
+        "paddingBottom": "md"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "おおっとミッションに失敗してしまったようデス....😨😨 \n\nもう一度手順をよく読んで再チャレンジしてみましょう！！",
+            "wrap": true,
+            "gravity": "bottom",
+            "size": "17px",
+            "margin": "none",
+            "offsetTop": "none",
+            "offsetBottom": "none"
+          }
+        ],
+        "borderWidth": "none",
+        "cornerRadius": "xl",
+        "margin": "none",
+        "backgroundColor": "#edf2fa",
+        "paddingAll": "xl"
+      }
+    ],
+    "borderWidth": "none",
+    "margin": "none"
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": []
+  },
+  "styles": {
+    "footer": {
+      "backgroundColor": "#299ae6"
+    }
+  }
+}
