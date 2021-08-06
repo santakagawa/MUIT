@@ -1,0 +1,79 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "ポイント詳細",
+        "color": "#299ae6",
+        "weight": "bold",
+        "margin": "none"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "【現在の所有ポイント】",
+            "wrap": true,
+            "gravity": "bottom",
+            "size": "17px",
+            "margin": "none",
+            "offsetTop": "none",
+            "offsetBottom": "none"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "50",
+                "gravity": "center",
+                "weight": "bold",
+                "size": "4xl",
+                "margin": "none",
+                "flex": 0
+              },
+              {
+                "type": "text",
+                "text": "ポイント",
+                "gravity": "center",
+                "weight": "bold",
+                "margin": "sm",
+                "size": "lg"
+              }
+            ],
+            "paddingTop": "lg",
+            "paddingBottom": "md"
+          },
+          {
+            "type": "text",
+            "text": "\nポイントがたまったら、\nギフトに交換してみマショウ🎁",
+            "wrap": true
+          }
+        ],
+        "borderWidth": "none",
+        "cornerRadius": "xl",
+        "margin": "md",
+        "backgroundColor": "#edf2fa",
+        "paddingAll": "xl"
+      }
+    ],
+    "borderWidth": "none",
+    "margin": "none"
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": []
+  },
+  "styles": {
+    "footer": {
+      "backgroundColor": "#299ae6"
+    }
+  }
+}
