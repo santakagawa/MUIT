@@ -1,0 +1,81 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "image",
+        "size": "full",
+        "aspectMode": "cover",
+        "aspectRatio": "1:1",
+        "gravity": "center",
+        "url": "https://lh3.googleusercontent.com/proxy/I07VQK9ztRANoFlgYg_fEVPPRJW-VSeS85RArtEqJGuOQPJoHeqMTvnJf9o6PAC7SZ5Mv8JxIC-3f23v4eywxa2_ZqczKnpC7MPg5wzdMOaonryY0ORqOSVwZuIFn_wmJPGGFDKu-dEw6QBv6HkREoyOdORBMTNmWtc9Jz_raiycd5db0r2s0g4"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "全ミッション達成",
+                "weight": "bold",
+                "color": "#299ae6"
+              }
+            ],
+            "position": "absolute",
+            "paddingAll": "xxl"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "🎉おめでとうございマス🎉\n\n全ミッション達成デス！\n\nまた分からなくなったときは、私を呼んでくださいネ🤖🤖",
+                    "wrap": true,
+                    "gravity": "bottom",
+                    "size": "17px",
+                    "margin": "none",
+                    "offsetTop": "none",
+                    "offsetBottom": "none"
+                  }
+                ],
+                "borderWidth": "none",
+                "cornerRadius": "xl",
+                "backgroundColor": "#edf2fa",
+                "paddingAll": "xl"
+              }
+            ],
+            "paddingAll": "xxl",
+            "offsetTop": "40px",
+            "height": "300px"
+          }
+        ],
+        "position": "absolute",
+        "background": {
+          "type": "linearGradient",
+          "angle": "0deg",
+          "startColor": "#ffffff00",
+          "endColor": "#f2f2f2CC"
+        }
+      }
+    ],
+    "paddingAll": "none",
+    "height": "270px"
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [],
+    "backgroundColor": "#299ae6"
+  }
+}
